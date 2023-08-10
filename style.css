@@ -1,0 +1,47 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: rgba(0,0,19,1);
+  color:#D6D6F2;
+}
+
+Info {
+  box-sizing: border-box;
+  height: 176px;
+  width: 380px;
+  position: absolute;
+}
+Info #p1 {
+margin: 249px 900px 24px 160px;
+display: flex;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+box-sizing: content-box;
+align-self: center;
+border: 1px solid red;
+margin-bottom: 0;
+}
+
+Info #p2 {
+border: 1px solid red;
+display: block;
+box-sizing: content-box;
+font-family: 'Outfit' normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+margin: 24px 900px 56px 160px;
+}
+
+div {
+  display: flex;
+  margin: 0 900px 315px 160px;
+}
+#back {
+border: 1px solid red;
+
+}
+
+#home {
+  border: 1px solid red;
+}
