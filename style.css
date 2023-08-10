@@ -1,47 +1,103 @@
 body {
-  font-family: 'Outfit', sans-serif;
-  background-color: rgba(0,0,19,1);
-  color:#D6D6F2;
+  background-color: rgba(0, 0, 19, 1);
+  background: url(./.media/Background.png);
+}
+body * {
+  font-family: "Outfit", sans-serif;
+  color: #d6d6f2;
 }
 
-Info {
-  box-sizing: border-box;
-  height: 176px;
+div#info {
+  box-sizing: content-box;
+  height: 278px;
   width: 380px;
+  margin: 249px 900px 295px 160px;
+  display: inline-block;
   position: absolute;
 }
-Info #p1 {
-margin: 249px 900px 24px 160px;
+
+div #p1 {
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+}
+
+div #p2 {
+  font-family: "Outfit" normal;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 56px;
+  display: block;
+}
+
+div#buttons {
+  display: inline;
+  margin-top: 56px;
+  color: #e2e2f5;
+  display: block;
+}
+div#back {
+  display: inline;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-size: 14px;
+  background-color: #151557;
+  transition: 0.6s;
+}
+div #back a {
+  text-decoration: none;
+}
+div#back:hover {
+  background: #212187;
+}
+
+div#home {
+  display: inline;
+  margin-left: 16px;
+  margin-top: 56px;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-size: 14px;
+  background-color: #151557;
+  transition: .6s;
+}
+
+div#home a {
+  text-decoration: none;
+}
+
+div#home:hover{
+  background: #212187
+}
+
+div#num{
+margin: 249px 251px 342px 783px;
+position: absolute;
+width: 406px;
+height: 230px;
 display: flex;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-box-sizing: content-box;
-align-self: center;
-border: 1px solid red;
-margin-bottom: 0;
+justify-content: center;
 }
 
-Info #p2 {
-border: 1px solid red;
-display: block;
-box-sizing: content-box;
-font-family: 'Outfit' normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 28px;
-margin: 24px 900px 56px 160px;
+div #num1 {
+  background: url(./.media/4.svg);
+  color: #BF7BFB;
+  width: 80px;
+  height: 105px;
+  transform: translateY(50%);
+}
+iframe{
+height:230px;
+width: 230px;
+border: none;
+margin: 0 8px;
 }
 
-div {
-  display: flex;
-  margin: 0 900px 315px 160px;
-}
-#back {
-border: 1px solid red;
-
-}
-
-#home {
-  border: 1px solid red;
+div #num2 {
+  background: url(./.media/4.svg);
+  color: #BF7BFB;
+  width: 80px;
+  height: 105px;
+  transform: translateY(50%);
 }
