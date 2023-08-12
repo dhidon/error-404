@@ -4,6 +4,7 @@ body {
   height: 820px;
   width: 1440px;
   flex-shrink: 0;
+  
 }
 body * {
   font-family: "Outfit", sans-serif;
@@ -16,6 +17,7 @@ div#num {
   align-items: center;
   gap: 8px;
   margin: 249px 251px 342px 783px;
+  position: absolute;
 }
 
 div #num1 {
@@ -45,6 +47,7 @@ div #num2 {
   align-items: flex-start;
   gap: 56px;
   margin: 249px 900px 295px 160px;
+  position: absolute;
 }
 #info {
   display: flex;
